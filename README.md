@@ -19,7 +19,7 @@ Download data of this project from the following address:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 
-## Requirement
+## Requirements
 
 Create one R script called run_analysis.R that does the following.
 
