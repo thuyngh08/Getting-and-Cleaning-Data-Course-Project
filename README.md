@@ -73,9 +73,8 @@ using it.
 
 Convert the dataset from wide (82 columns) form to long form (4 columns) with
 id variables are 'Subject' and 'Activity'. Aggregate the long form dataset to
-get the average value of each variables for each activity and subject
-
-Create a dataset with the average of each variable for each activity and subject.
+get the average value of each variables for each activity and subject and create 
+a dataset with the average of each variable for each activity and subject.
 
 
 
