@@ -23,12 +23,12 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 Create one R script called run_analysis.R that does the following.
 
-*   1. Merges the training and the test sets to create one data set.
-*   2. Extracts only the measurements on the mean and standard deviation for each measurement.
-*   3. Uses descriptive activity names to name the activities in the data set
-*   4. Appropriately labels the data set with descriptive variable names.
-*   5. From the data set in step 4, creates a second, independent tidy data set
-*   with the average of each variable for each activity and each subject.
+*   Merges the training and the test sets to create one data set.
+*   Extracts only the measurements on the mean and standard deviation for each measurement.
+*   Uses descriptive activity names to name the activities in the data set
+*   Appropriately labels the data set with descriptive variable names.
+*   From the data set in step 4, creates a second, independent tidy datasets with 
+the average of each variable for each activity and each subject.
 
 ## Steps to complete the assignment with some notes
 
@@ -51,9 +51,7 @@ binds_row() as it kept all columns of the dataset
 
 Get the name of all the measurements (variables) by reading features.txt into R. 
 The dataset has 2 columns. V1 is the number and V2 is the corresponding measurment
-names. 
-
-Choose only the measurements that has 'mean' or 'std' in its value and save as 
+names. Choose only the measurements that has 'mean' or 'std' in its value and save as 
 a new dataframe called mean_std_name. There are 79 measurements satisfied this criteria
 
 Use this dataframe to select the variables in data_full that measure on the mean and 
@@ -62,7 +60,6 @@ standard deviation. Save this dataset to new dataframe called 'mean_std_data_fra
 ### 3. Uses descriptive activity names to name the activities in the data set
 
 Get the corresponding descriptive activity name by loading activity_labels.txt into R
-
 The dataframe has 2 columns - V1: activity code and V2: activity name. Use both 
 two variables to label the 'Activity' variable, making it a factor variable with
 two attributes, levels (code) and labels(name).
@@ -75,10 +72,8 @@ using it.
 ### 5. Creates a tidy data set with the average of each variable for each activity and each subject
 
 Convert the dataset from wide (82 columns) form to long form (4 columns) with
-id variables are 'Subject' and 'Activity'
-
-Aggregate the long form dataset to get the average value of each variables 
-for each activity and subject
+id variables are 'Subject' and 'Activity'. Aggregate the long form dataset to
+get the average value of each variables for each activity and subject
 
 Create a dataset with the average of each variable for each activity and subject
 
