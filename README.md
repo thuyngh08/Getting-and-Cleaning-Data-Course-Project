@@ -59,8 +59,8 @@ standard deviation. Save this dataset to new dataframe called 'mean_std_data_fra
 
 ### 3. Uses descriptive activity names to name the activities in the data set
 
-Get the corresponding descriptive activity name by loading activity_labels.txt into R
-The dataframe has 2 columns: V1: activity code and V2: activity name. Use both 
+Get the corresponding descriptive activity name by loading activity_labels.txt into R.
+The dataframe has 2 columns, V1: activity code and V2: activity name. Use both 
 two variables to label the 'Activity' variable, making it a factor variable with
 two attributes, levels (code) and labels(name).
 
