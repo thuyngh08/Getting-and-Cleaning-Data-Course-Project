@@ -28,33 +28,85 @@ each subject participated
 mean and standard deviation that were chosen. 
 79 measurements are:
 
-[1] tBodyAcc-mean()-X               tBodyAcc-mean()-Y               tBodyAcc-mean()-Z              
-[4] tBodyAcc-std()-X                tBodyAcc-std()-Y                tBodyAcc-std()-Z               
-[7] tGravityAcc-mean()-X            tGravityAcc-mean()-Y            tGravityAcc-mean()-Z           
-[10] tGravityAcc-std()-X             tGravityAcc-std()-Y             tGravityAcc-std()-Z            
-[13] tBodyAccJerk-mean()-X           tBodyAccJerk-mean()-Y           tBodyAccJerk-mean()-Z          
-[16] tBodyAccJerk-std()-X            tBodyAccJerk-std()-Y            tBodyAccJerk-std()-Z           
-[19] tBodyGyro-mean()-X              tBodyGyro-mean()-Y              tBodyGyro-mean()-Z             
-[22] tBodyGyro-std()-X               tBodyGyro-std()-Y               tBodyGyro-std()-Z              
-[25] tBodyGyroJerk-mean()-X          tBodyGyroJerk-mean()-Y          tBodyGyroJerk-mean()-Z         
-[28] tBodyGyroJerk-std()-X           tBodyGyroJerk-std()-Y           tBodyGyroJerk-std()-Z          
-[31] tBodyAccMag-mean()              tBodyAccMag-std()               tGravityAccMag-mean()          
-[34] tGravityAccMag-std()            tBodyAccJerkMag-mean()          tBodyAccJerkMag-std()          
-[37] tBodyGyroMag-mean()             tBodyGyroMag-std()              tBodyGyroJerkMag-mean()        
-[40] tBodyGyroJerkMag-std()          fBodyAcc-mean()-X               fBodyAcc-mean()-Y              
-[43] fBodyAcc-mean()-Z               fBodyAcc-std()-X                fBodyAcc-std()-Y               
-[46] fBodyAcc-std()-Z                fBodyAcc-meanFreq()-X           fBodyAcc-meanFreq()-Y          
-[49] fBodyAcc-meanFreq()-Z           fBodyAccJerk-mean()-X           fBodyAccJerk-mean()-Y          
-[52] fBodyAccJerk-mean()-Z           fBodyAccJerk-std()-X            fBodyAccJerk-std()-Y           
-[55] fBodyAccJerk-std()-Z            fBodyAccJerk-meanFreq()-X       fBodyAccJerk-meanFreq()-Y      
-[58] fBodyAccJerk-meanFreq()-Z       fBodyGyro-mean()-X              fBodyGyro-mean()-Y             
-[61] fBodyGyro-mean()-Z              fBodyGyro-std()-X               fBodyGyro-std()-Y              
-[64] fBodyGyro-std()-Z               fBodyGyro-meanFreq()-X          fBodyGyro-meanFreq()-Y         
-[67] fBodyGyro-meanFreq()-Z          fBodyAccMag-mean()              fBodyAccMag-std()              
-[70] fBodyAccMag-meanFreq()          fBodyBodyAccJerkMag-mean()      fBodyBodyAccJerkMag-std()      
-[73] fBodyBodyAccJerkMag-meanFreq()  fBodyBodyGyroMag-mean()         fBodyBodyGyroMag-std()         
-[76] fBodyBodyGyroMag-meanFreq()     fBodyBodyGyroJerkMag-mean()     fBodyBodyGyroJerkMag-std()     
-[79] fBodyBodyGyroJerkMag-meanFreq()
+tBodyAcc-mean()-X               
+tBodyAcc-mean()-Y               
+tBodyAcc-mean()-Z              
+tBodyAcc-std()-X                
+tBodyAcc-std()-Y                
+tBodyAcc-std()-Z               
+tGravityAcc-mean()-X            
+tGravityAcc-mean()-Y            
+tGravityAcc-mean()-Z           
+tGravityAcc-std()-X             
+tGravityAcc-std()-Y             
+tGravityAcc-std()-Z            
+tBodyAccJerk-mean()-X           
+tBodyAccJerk-mean()-Y           
+tBodyAccJerk-mean()-Z          
+tBodyAccJerk-std()-X            
+tBodyAccJerk-std()-Y            
+tBodyAccJerk-std()-Z           
+tBodyGyro-mean()-X              
+tBodyGyro-mean()-Y              
+tBodyGyro-mean()-Z             
+tBodyGyro-std()-X               
+tBodyGyro-std()-Y               
+tBodyGyro-std()-Z              
+tBodyGyroJerk-mean()-X          
+tBodyGyroJerk-mean()-Y          
+tBodyGyroJerk-mean()-Z         
+tBodyGyroJerk-std()-X           
+tBodyGyroJerk-std()-Y           
+tBodyGyroJerk-std()-Z          
+tBodyAccMag-mean()              
+tBodyAccMag-std()               
+tGravityAccMag-mean()          
+tGravityAccMag-std()            
+tBodyAccJerkMag-mean()          
+tBodyAccJerkMag-std()          
+tBodyGyroMag-mean()             
+tBodyGyroMag-std()              
+tBodyGyroJerkMag-mean()        
+tBodyGyroJerkMag-std()          
+fBodyAcc-mean()-X               
+fBodyAcc-mean()-Y              
+fBodyAcc-mean()-Z               
+fBodyAcc-std()-X                
+fBodyAcc-std()-Y               
+fBodyAcc-std()-Z                
+fBodyAcc-meanFreq()-X           
+fBodyAcc-meanFreq()-Y          
+fBodyAcc-meanFreq()-Z           
+fBodyAccJerk-mean()-X           
+fBodyAccJerk-mean()-Y          
+fBodyAccJerk-mean()-Z           
+fBodyAccJerk-std()-X            
+fBodyAccJerk-std()-Y           
+fBodyAccJerk-std()-Z            
+fBodyAccJerk-meanFreq()-X       
+fBodyAccJerk-meanFreq()-Y      
+fBodyAccJerk-meanFreq()-Z       
+fBodyGyro-mean()-X              
+fBodyGyro-mean()-Y             
+fBodyGyro-mean()-Z              
+fBodyGyro-std()-X               
+fBodyGyro-std()-Y              
+fBodyGyro-std()-Z               
+fBodyGyro-meanFreq()-X          
+fBodyGyro-meanFreq()-Y         
+fBodyGyro-meanFreq()-Z          
+fBodyAccMag-mean()              
+fBodyAccMag-std()              
+fBodyAccMag-meanFreq()          
+fBodyBodyAccJerkMag-mean()      
+fBodyBodyAccJerkMag-std()      
+fBodyBodyAccJerkMag-meanFreq()  
+fBodyBodyGyroMag-mean()         
+fBodyBodyGyroMag-std()         
+fBodyBodyGyroMag-meanFreq()     
+fBodyBodyGyroJerkMag-mean()     
+fBodyBodyGyroJerkMag-std()     
+fBodyBodyGyroJerkMag-meanFreq()
 
 * values: the average value of that measurements by subject and activity
 
